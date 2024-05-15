@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <ItemListContainer />
+      <ItemListContainer greeting={'Proximamente nuestros productos...'}/>
     </>
   )
 }
