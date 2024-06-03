@@ -4,7 +4,6 @@ import categories from "../data/categorias.json";
 import { ItemList } from './ItemList';
 import { useParams } from 'react-router-dom';
 
-<<<<<<< HEAD
 export const ItemListContainer = () => {
 
   let { categoryId } = useParams();
@@ -41,10 +40,5 @@ export const ItemListContainer = () => {
       <h1>{titulo}</h1>
       <ItemList productos={productos} />
     </div>
-=======
-export const ItemListContainer = ({greeting}) => {
-  return (
-    <div className='item-container'>{greeting}</div>
->>>>>>> 00c07c2666f34308d3b66d17539dcd5eb3f6b0b1
   )
 }
