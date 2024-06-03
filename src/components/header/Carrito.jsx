@@ -1,8 +1,10 @@
+import cart from '../../assets/img/cart-icon.png'
 
-export const Carrito = () => {
+
+export const Carrito = (props) => {
   return (
     <div className="carrito">
-        🛒 0
+        <img src={cart} alt="Icono carrito de compras" />{props.numerito}
     </div>
   )
 }

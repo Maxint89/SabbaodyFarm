@@ -4,12 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../assets/img/one-piece-world-map-desktop-wallpaper-preview3.jpg);
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #7b929c;
     padding-inline: 1rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .nav{
@@ -28,11 +40,16 @@
     font-size: 24px;
 }
 
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .nav-link:hover{
     color: #CD3D18;
 }
 
-.item-container{
+.products-container{
     font-size: 30px;
     min-height: 30vh;
     display: grid;
@@ -43,4 +60,56 @@
     background-color: #18B55A;
     padding: .5rem;
     border-radius: 50%;
+}
+
+.carrito img{
+    height: 40px;
+    width: 40px;
+}
+
+.item-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.item-list-container h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.productos-grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.producto {
+    margin-top: 1rem;
+    background-color: #7b929c;
+    border-radius: .5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.footerContainer {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    width: 100%;    
+    background-color: #7b929c;
+    margin-top: 2rem;
+    transition: 0.8s ease all;
+    font-size: 1.5em;
+}
+
+.notFound{
+    color: #CD3D18;
+    background-color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin-block: 10rem;
 }
