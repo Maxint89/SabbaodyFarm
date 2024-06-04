@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body {
     background-image: url(../assets/img/one-piece-world-map-desktop-wallpaper-preview3.jpg);
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,17 +24,17 @@ body {
     gap: 1rem;
 }
 
-.nav{
+.nav {
     display: flex;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     list-style-type: none;
     gap: .7rem;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: #bbec09;
     font-size: 24px;
@@ -45,24 +45,24 @@ body {
     text-decoration: underline;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #CD3D18;
 }
 
-.products-container{
+.products-container {
     font-size: 30px;
     min-height: 30vh;
     display: grid;
     place-items: center;
 }
 
-.carrito{
+.carrito {
     background-color: #18B55A;
     padding: .5rem;
     border-radius: 50%;
 }
 
-.carrito img{
+.carrito img {
     height: 40px;
     width: 40px;
 }
@@ -72,15 +72,18 @@ body {
     margin: 0 auto;
 }
 
-.item-list-container h1{
+.item-list-container h1 {
     text-align: center;
     margin: 2rem;
+    color: #057cfba8;
 }
 
 .productos-grilla {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    justify-items: center;
+    width: 100%;
 }
 
 .producto {
@@ -91,25 +94,77 @@ body {
     text-align: center;
 }
 
+.producto img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.producto-ppal{
+    display: flex;
+    justify-content: center;
+}
+.producto-detail {
+    margin-top: 5rem;
+    width: 100%;
+    background-color: #7b929c;
+    border-radius: 1rem;
+    text-align: center;
+    margin-inline: 2rem;
+    padding: 2rem;
+    max-width: 350px;
+}
+
+.producto-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.producto-detail-name {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color:#bbec09;
+}
+
+.producto-detail-price {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.producto-detail-description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #bbec09;
+}
+
+
+.producto-detail:hover {
+    transform: translateY(-5px);
+}
+
+
+.notFound {
+    color: #CD3D18;
+    background-color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin-block: 10rem;
+}
+
 .grid {
     display: grid;
 }
 
 .footerContainer {
     display: flex;
-    padding-top: 50px;
+    padding-block: 50px;
     justify-content: center;
-    width: 100%;    
+    width: 100%;
+    color: #bbec09;
     background-color: #7b929c;
     margin-top: 2rem;
-    transition: 0.8s ease all;
     font-size: 1.5em;
-}
-
-.notFound{
-    color: #CD3D18;
-    background-color: black;
-    font-size: 3rem;
-    text-align: center;
-    margin-block: 10rem;
+    margin-bottom: 0;
 }

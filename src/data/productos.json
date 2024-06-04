@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Gomu Gomu no Mi",
         "precio": 1000000,
-        "imagen": "/assets/img/Fruta_Gomu_Gomu.jpg",
+        "imagen": "/src/assets/img/Fruta_Gomu_Gomu.jpg",
         "descripcion": "Convierte el cuerpo del usuario en goma, dándole la capacidad de estirarse, rebotar y ser inmune a los ataques físicos.",
         "categoria": {
             "id": "paramecia",
@@ -15,7 +15,7 @@
         "nombre": "Mera Mera no Mi",
         "precio": 1500000,
         "tipo": "Logia",
-        "imagen": "/assets/img/Fruta_Mera_Mera.jpg",
+        "imagen": "/src/assets/img/Fruta_Mera_Mera.jpg",
         "descripcion": "Otorga al usuario la capacidad de crear, controlar y transformarse en fuego a voluntad.",
         "categoria": {
             "id": "logia",
@@ -27,7 +27,7 @@
         "nombre": "Sara Sara no Mi, Modelo: Axolotl",
         "precio": 850000,
         "tipo": "Zoan",
-        "imagen": "/assets/img/Sara_Sara_no_Mi_ajolote.jpg",
+        "imagen": "/src/assets/img/Sara_Sara_no_Mi_ajolote.jpg",
         "descripcion": "Permite al usuario transformarse en un axolotl completo o en una forma híbrida humano-axolotl.",
         "categoria": {
             "id": "zoan",
@@ -39,7 +39,7 @@
         "nombre": "Suna Suna no Mi",
         "precio": 1400000,
         "tipo": "Logia",
-        "imagen": "/assets/img/Fruta_Suna_Suna.jpg",
+        "imagen": "/src/assets/img/Fruta_Suna_Suna.jpg",
         "descripcion": "Permite al usuario convertirse en arena y controlar la arena a voluntad, pudiendo absorber la humedad de todo lo que toca.",
         "categoria": {
             "id": "logia",
@@ -51,7 +51,7 @@
         "nombre": "Mero Mero no Mi",
         "precio": 1200000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Mero_Mero.jpg",
+        "imagen": "/src/assets/img/Fruta_Mero_Mero.jpg",
         "descripcion": "Permite al usuario petrificar a cualquier persona que sienta lujuria o amor por ellos.",
         "categoria": {
             "id": "paramecia",
@@ -63,7 +63,7 @@
         "nombre": "Yami Yami no Mi",
         "precio": 1600000,
         "tipo": "Logia",
-        "imagen": "/assets/img/Fruta_Yami_Yami.jpg",
+        "imagen": "/src/assets/img/Fruta_Yami_Yami.jpg",
         "descripcion": "Permite al usuario crear y controlar la oscuridad, además de anular los poderes de otras frutas del diablo.",
         "categoria": {
             "id": "logia",
@@ -75,7 +75,7 @@
         "nombre": "Uo Uo no Mi, Modelo: Seiryu",
         "precio": 2000000,
         "tipo": "Zoan Mitológica",
-        "imagen": "/assets/img/Fruta_Uo_Uo_modelo_seiryu.jpg",
+        "imagen": "/src/assets/img/Fruta_Uo_Uo_modelo_seiryu.jpg",
         "descripcion": "Permite al usuario transformarse en un dragón oriental completo o en una forma híbrida humano-dragón.",
         "categoria": {
             "id": "zoan",
@@ -87,7 +87,7 @@
         "nombre": "Kage Kage no Mi",
         "precio": 1300000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Kage_Kage.jpg",
+        "imagen": "/src/assets/img/Fruta_Kage_Kage.jpg",
         "descripcion": "Permite al usuario robar sombras y usarlas para dar vida a cuerpos inertes o aumentar sus propias habilidades.",
         "categoria": {
             "id": "paramecia",
@@ -99,7 +99,7 @@
         "nombre": "Ito Ito no Mi",
         "precio": 1500000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Ito_Ito.jpg",
+        "imagen": "/src/assets/img/Fruta_Ito_Ito.jpg",
         "descripcion": "Permite al usuario crear y controlar hilos extremadamente finos y afilados, pudiendo incluso controlar a otras personas como marionetas.",
         "categoria": {
             "id": "paramecia",
@@ -111,7 +111,7 @@
         "nombre": "Hebi Hebi no Mi, Modelo: Anaconda",
         "precio": 950000,
         "tipo": "Zoan",
-        "imagen": "/assets/img/Fruta_Hebi_Hebi_Modelo_Yamata-no-Orochi.jpg",
+        "imagen": "/src/assets/img/Fruta_Hebi_Hebi_Modelo_Yamata-no-Orochi.jpg",
         "descripcion": "Permite al usuario transformarse en una anaconda completa o en una forma híbrida humano-anaconda.",
         "categoria": {
             "id": "zoan",
@@ -123,7 +123,7 @@
         "nombre": "Moku Moku no Mi",
         "precio": 1400000,
         "tipo": "Logia",
-        "imagen": "/assets/img/Fruta_Moku_Moku.jpg",
+        "imagen": "/src/assets/img/Fruta_Moku_Moku.jpg",
         "descripcion": "Permite al usuario convertirse en humo y controlarlo a voluntad, haciéndolo intangible.",
         "categoria": {
             "id": "logia",
@@ -135,7 +135,7 @@
         "nombre": "Ushi Ushi no Mi, Modelo: Bisonte",
         "precio": 900000,
         "tipo": "Zoan",
-        "imagen": "/assets/img/Fruta_Ushi_Ushi_modelo_bisonte.jpg",
+        "imagen": "/src/assets/img/Fruta_Ushi_Ushi_modelo_bisonte.jpg",
         "descripcion": "Permite al usuario transformarse en un bisonte completo o en una forma híbrida humano-bisonte.",
         "categoria": {
             "id": "zoan",
@@ -147,7 +147,7 @@
         "nombre": "Hana Hana no Mi",
         "precio": 1100000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Hana_Hana.jpg",
+        "imagen": "/src/assets/img/Fruta_Hana_Hana.jpg",
         "descripcion": "Permite al usuario hacer florecer partes de su cuerpo (como brazos y ojos) sobre cualquier superficie.",
         "categoria": {
             "id": "paramecia",
@@ -159,7 +159,7 @@
         "nombre": "Kiro Kiro no Mi",
         "precio": 800000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Kiro_Kiro.jpg",
+        "imagen": "/src/assets/img/Fruta_Kiro_Kiro.jpg",
         "descripcion": "Permite al usuario cambiar su peso a voluntad, desde 1 kilogramo hasta 10,000 kilogramos.",
         "categoria": {
             "id": "paramecia",
@@ -171,7 +171,7 @@
         "nombre": "Horo Horo no Mi",
         "precio": 1150000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Horo_Horo.jpg",
+        "imagen": "/src/assets/img/Fruta_Horo_Horo.jpg",
         "descripcion": "Permite al usuario crear y controlar fantasmas que pueden provocar depresión y desmotivación en sus víctimas.",
         "categoria": {
             "id": "paramecia",
@@ -183,7 +183,7 @@
         "nombre": "Inu Inu no Mi, Modelo: Lobo",
         "precio": 1100000,
         "tipo": "Zoan",
-        "imagen": "/assets/img/Fruta_Inu_Inu_modelo_Okuchi_no_Makami.jpg",
+        "imagen": "/src/assets/img/Fruta_Inu_Inu_modelo_Okuchi_no_Makami.jpg",
         "descripcion": "Permite al usuario transformarse en un lobo completo o en una forma híbrida humano-lobo.",
         "categoria": {
             "id": "zoan",
@@ -195,7 +195,7 @@
         "nombre": "Hito Hito no Mi",
         "precio": 1200000,
         "tipo": "Zoan",
-        "imagen": "/assets/img/Fruta_Hito_Hito.jpg",
+        "imagen": "/src/assets/img/Fruta_Hito_Hito.jpg",
         "descripcion": "Permite al usuario transformarse en un humano completo o en una forma híbrida humano-animal.",
         "categoria": {
             "id": "zoan",
@@ -207,7 +207,7 @@
         "nombre": "Uta Uta no Mi",
         "precio": 1250000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Uta_Uta.jpg",
+        "imagen": "/src/assets/img/Fruta_Uta_Uta.jpg",
         "descripcion": "Permite al usuario enviar la conciencia de las personas a un mundo ilusorio mediante canciones.",
         "categoria": {
             "id": "paramecia",
@@ -219,7 +219,7 @@
         "nombre": "Fude Fude no Mi",
         "precio": 950000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Fude_Fude.jpg",
+        "imagen": "/src/assets/img/Fruta_Fude_Fude.jpg",
         "descripcion": "Permite al usuario crear y manipular dibujos como si fueran reales.",
         "categoria": {
             "id": "paramecia",
@@ -231,7 +231,7 @@
         "nombre": "Neko Neko no Mi, Modelo: Leopardo",
         "precio": 1300000,
         "tipo": "Zoan",
-        "imagen": "/assets/img/Fruta_Neko_Neko_modelo_leopardo.jpg",
+        "imagen": "/src/assets/img/Fruta_Neko_Neko_modelo_leopardo.jpg",
         "descripcion": "Permite al usuario transformarse en un leopardo completo o en una forma híbrida humano-leopardo.",
         "categoria": {
             "id": "zoan",
@@ -243,7 +243,7 @@
         "nombre": "Bara Bara no Mi",
         "precio": 900000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Bara_Bara.jpg",
+        "imagen": "/src/assets/img/Fruta_Bara_Bara.jpg",
         "descripcion": "Permite al usuario separar su cuerpo en piezas que puede controlar a voluntad, haciéndolo inmune a los cortes.",
         "categoria": {
             "id": "paramecia",
@@ -255,7 +255,7 @@
         "nombre": "Sube Sube no Mi",
         "precio": 700000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Sube_Sube.jpg",
+        "imagen": "/src/assets/img/Fruta_Sube_Sube.jpg",
         "descripcion": "Hace que la piel del usuario sea extremadamente resbaladiza, haciendo que la mayoría de los ataques resbalen sin hacer daño.",
         "categoria": {
             "id": "paramecia",
@@ -267,7 +267,7 @@
         "nombre": "Doru Doru no Mi",
         "precio": 800000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Doru_Doru.jpg",
+        "imagen": "/src/assets/img/Fruta_Doru_Doru.jpg",
         "descripcion": "Permite al usuario crear y controlar cera a voluntad, pudiendo formar cualquier cosa con ella.",
         "categoria": {
             "id": "paramecia",
@@ -279,7 +279,7 @@
         "nombre": "Goro Goro no Mi",
         "precio": 2000000,
         "tipo": "Logia",
-        "imagen": "/assets/img/Fruta_Goro_Goro.jpg",
+        "imagen": "/src/assets/img/Fruta_Goro_Goro.jpg",
         "descripcion": "Otorga al usuario la capacidad de crear, controlar y transformarse en electricidad, permitiéndole moverse a gran velocidad y atacar con rayos.",
         "categoria": {
             "id": "logia",
@@ -291,7 +291,7 @@
         "nombre": "Bomu Bomu no Mi",
         "precio": 850000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Bomu_Bomu.jpg",
+        "imagen": "/src/assets/img/Fruta_Bomu_Bomu.jpg",
         "descripcion": "Hace que el cuerpo del usuario se convierta en una bomba humana, permitiéndole detonar cualquier parte de su cuerpo sin hacerse daño.",
         "categoria": {
             "id": "paramecia",
@@ -303,7 +303,7 @@
         "nombre": "Yomi Yomi no Mi",
         "precio": 1400000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Yomi_Yomi.jpg",
+        "imagen": "/src/assets/img/Fruta_Yomi_Yomi.jpg",
         "descripcion": "Permite al usuario revivir una vez después de morir, y luego otorga habilidades relacionadas con las almas.",
         "categoria": {
             "id": "paramecia",
@@ -315,7 +315,7 @@
         "nombre": "Jiki Jiki no Mi",
         "precio": 1800000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Jiki_Jiki.jpg",
+        "imagen": "/src/assets/img/Fruta_Jiki_Jiki.jpg",
         "descripcion": "Permite al usuario manipular el magnetismo, atrayendo y repeliendo metales a voluntad.",
         "categoria": {
             "id": "paramecia",
@@ -327,7 +327,7 @@
         "nombre": "Mochi Mochi no Mi",
         "precio": 1700000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Mochi_Mochi.jpg",
+        "imagen": "/src/assets/img/Fruta_Mochi_Mochi.jpg",
         "descripcion": "Permite al usuario crear, controlar y transformarse en mochi, una masa pegajosa y maleable.",
         "categoria": {
             "id": "paramecia",
@@ -339,7 +339,7 @@
         "nombre": "Ope Ope no Mi",
         "precio": 2000000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Ope_Ope.jpg",
+        "imagen": "/src/assets/img/Fruta_Ope_Ope.jpg",
         "descripcion": "Permite al usuario crear una 'Sala de Operación' donde puede manipular todo, incluyendo las personas, como si estuvieran en una cirugía.",
         "categoria": {
             "id": "paramecia",
@@ -351,7 +351,7 @@
         "nombre": "Ushi Ushi no Mi, Modelo: Jirafa",
         "precio": 900000,
         "tipo": "Zoan",
-        "imagen": "/assets/img/Fruta_Ushi_Ushi_modelo_Jirafa.jpg",
+        "imagen": "/src/assets/img/Fruta_Ushi_Ushi_modelo_Jirafa.jpg",
         "descripcion": "Permite al usuario transformarse en una jirafa completa o en una forma híbrida humano-jirafa.",
         "categoria": {
             "id": "zoan",
@@ -363,7 +363,7 @@
         "nombre": "Baku Baku no Mi",
         "precio": 750000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Baku_Baku.jpg",
+        "imagen": "/src/assets/img/Fruta_Baku_Baku.jpg",
         "descripcion": "Permite al usuario comer cualquier cosa y asimilar sus propiedades.",
         "categoria": {
             "id": "paramecia",
@@ -375,7 +375,7 @@
         "nombre": "Awa Awa no Mi",
         "precio": 850000,
         "tipo": "Paramecia",
-        "imagen": "/assets/img/Fruta_Awa_Awa.jpg",
+        "imagen": "/src/assets/img/Fruta_Awa_Awa.jpg",
         "descripcion": "Permite al usuario crear y controlar burbujas que pueden limpiar y suavizar todo lo que tocan, incluso personas.",
         "categoria": {
             "id": "paramecia",
@@ -387,7 +387,7 @@
         "nombre": "Fruta del Diablo Artificial hecha por Vegapunk",
         "precio": 500000,
         "tipo": "Zoan Artificial",
-        "imagen": "/assets/img/Fruta_del_Diablo_artificial.jpg",
+        "imagen": "/src/assets/img/Fruta_del_Diablo_artificial.jpg",
         "descripcion": "Una fruta del diablo artificial creada por Vegapunk que otorga al usuario habilidades zoan. Sin embargo, estas habilidades pueden ser inestables o imperfectas.",
         "categoria": {
             "id": "zoan",
@@ -399,7 +399,7 @@
         "nombre": "SMILE",
         "precio": 300000,
         "tipo": "Zoan Artificial",
-        "imagen": "/assets/img/SMILE.jpg",
+        "imagen": "/src/assets/img/SMILE.jpg",
         "descripcion": "Una fruta del diablo artificial creada por Caesar Clown que otorga habilidades zoan, pero con efectos secundarios impredecibles y permanentes.",
         "categoria": {
             "id": "zoan",

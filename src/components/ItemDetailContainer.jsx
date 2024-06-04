@@ -13,13 +13,13 @@ const ItemDetailContainer = () => {
 
 
     return (
-        <div>{
+        <div className='producto-ppal'>{
             producto ?
-                <div className="producto">
-                    <img src={producto.imagen} />
-                    <h2>{producto.nombre}</h2>
-                    <p>${producto.precio}</p>
-                    <p>{producto.descripcion}</p>
+                <div className="producto-detail">
+                    <img className='producto-detail-image' src={producto.imagen} />
+                    <h2 className='producto-detail-name'>{producto.nombre}</h2>
+                    <p className='producto-detail-price'>${producto.precio}</p>
+                    <p className='producto-detail-description'>{producto.descripcion}</p>
                 </div>
                 : "Cargando... Favor de esperar"}</div>
     )
