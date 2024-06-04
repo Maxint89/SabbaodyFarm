@@ -24,11 +24,11 @@
     },
     {
         "id": 3,
-        "nombre": "Sara Sara no Mi, Modelo: Axolotl",
-        "precio": 850000,
+        "nombre": "Hito Hito no Mi",
+        "precio": 1200000,
         "tipo": "Zoan",
-        "imagen": "/src/assets/img/Sara_Sara_no_Mi_ajolote.jpg",
-        "descripcion": "Permite al usuario transformarse en un axolotl completo o en una forma híbrida humano-axolotl.",
+        "imagen": "/src/assets/img/Fruta_Hito_Hito.jpg",
+        "descripcion": "Permite al usuario transformarse en un humano completo o en una forma híbrida humano-animal.",
         "categoria": {
             "id": "zoan",
             "nombre": "Zoan"
@@ -36,14 +36,14 @@
     },
     {
         "id": 4,
-        "nombre": "Suna Suna no Mi",
-        "precio": 1400000,
-        "tipo": "Logia",
-        "imagen": "/src/assets/img/Fruta_Suna_Suna.jpg",
-        "descripcion": "Permite al usuario convertirse en arena y controlar la arena a voluntad, pudiendo absorber la humedad de todo lo que toca.",
+        "nombre": "Hana Hana no Mi",
+        "precio": 1100000,
+        "tipo": "Paramecia",
+        "imagen": "/src/assets/img/Fruta_Hana_Hana.jpg",
+        "descripcion": "Permite al usuario hacer florecer partes de su cuerpo (como brazos y ojos) sobre cualquier superficie.",
         "categoria": {
-            "id": "logia",
-            "nombre": "Logia"
+            "id": "paramecia",
+            "nombre": "Paramecia"
         }
     },
     {
@@ -144,14 +144,14 @@
     },
     {
         "id": 13,
-        "nombre": "Hana Hana no Mi",
-        "precio": 1100000,
-        "tipo": "Paramecia",
-        "imagen": "/src/assets/img/Fruta_Hana_Hana.jpg",
-        "descripcion": "Permite al usuario hacer florecer partes de su cuerpo (como brazos y ojos) sobre cualquier superficie.",
+        "nombre": "Suna Suna no Mi",
+        "precio": 1400000,
+        "tipo": "Logia",
+        "imagen": "/src/assets/img/Fruta_Suna_Suna.jpg",
+        "descripcion": "Permite al usuario convertirse en arena y controlar la arena a voluntad, pudiendo absorber la humedad de todo lo que toca.",
         "categoria": {
-            "id": "paramecia",
-            "nombre": "Paramecia"
+            "id": "logia",
+            "nombre": "Logia"
         }
     },
     {
@@ -192,11 +192,11 @@
     },
     {
         "id": 17,
-        "nombre": "Hito Hito no Mi",
-        "precio": 1200000,
+        "nombre": "Sara Sara no Mi, Modelo: Axolotl",
+        "precio": 850000,
         "tipo": "Zoan",
-        "imagen": "/src/assets/img/Fruta_Hito_Hito.jpg",
-        "descripcion": "Permite al usuario transformarse en un humano completo o en una forma híbrida humano-animal.",
+        "imagen": "/src/assets/img/Sara_Sara_no_Mi_ajolote.jpg",
+        "descripcion": "Permite al usuario transformarse en un axolotl completo o en una forma híbrida humano-axolotl.",
         "categoria": {
             "id": "zoan",
             "nombre": "Zoan"
