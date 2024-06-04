@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #7b929c;
-    padding-inline: 1rem;
+    padding-inline: 2rem;
 }
 
 .container {
@@ -31,7 +31,7 @@ body {
 .nav-menu {
     display: flex;
     list-style-type: none;
-    gap: .7rem;
+    gap: 1rem;
 }
 
 .nav-link {
@@ -58,7 +58,7 @@ body {
 
 .carrito {
     background-color: #18B55A;
-    padding: .5rem;
+    padding: 1rem;
     border-radius: 50%;
 }
 
@@ -92,26 +92,42 @@ body {
     border-radius: .5rem;
     padding: 1rem;
     text-align: center;
+    color: #bbec09;
 }
 
-.producto img {
-    width: 200px;
+.producto-image {
+    width: 150px;
     border-radius: 10px;
+}
+
+.producto-name {
+    font-size: 26px;
+}
+
+.producto-price {
+    font-size: 24px;
+    color: #FFF;
+    margin: .5rem;
+}
+
+.producto-description {
+    margin: .8rem;
 }
 
 .producto-ppal{
     display: flex;
     justify-content: center;
+    margin: 5rem;
 }
+
 .producto-detail {
-    margin-top: 5rem;
     width: 100%;
     background-color: #7b929c;
     border-radius: 1rem;
     text-align: center;
-    margin-inline: 2rem;
     padding: 2rem;
     max-width: 350px;
+    color:#bbec09;
 }
 
 .producto-detail-image {
@@ -124,7 +140,6 @@ body {
 .producto-detail-name {
     margin-top: 1rem;
     font-size: 2rem;
-    color:#bbec09;
 }
 
 .producto-detail-price {
@@ -135,13 +150,12 @@ body {
 
 .producto-detail-description {
     margin-top: 1rem;
-    font-size: 1rem;
-    color: #bbec09;
+    font-size: 20px;;
 }
 
 
 .producto-detail:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 
