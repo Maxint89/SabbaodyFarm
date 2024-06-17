@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../assets/img/one-piece-world-map-desktop-wallpaper-preview3.jpg);
+    background-image: url(../../public/img/one-piece-world-map-desktop-wallpaper-preview3.jpg);
 }
 
 .header {
@@ -72,7 +72,8 @@ body {
     margin: 0 auto;
 }
 
-.item-list-container h1 {
+.item-list-container-title {
+    font-size: 4rem;
     text-align: center;
     margin: 2rem;
     color: #057cfba8;
@@ -84,6 +85,12 @@ body {
     gap: 1rem;
     justify-items: center;
     width: 100%;
+}
+
+.charging {
+    font-size: 2rem;
+    color: #057cfba8;
+    font-weight: bold;
 }
 
 .producto {
@@ -120,19 +127,20 @@ body {
     margin: 5rem;
 }
 
-.producto-detail {
+.producto-detail-cart {
     width: 100%;
     background-color: #7b929c;
     border-radius: 1rem;
     text-align: center;
     padding: 2rem;
-    max-width: 350px;
+    max-width: 570px;
     color:#bbec09;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.producto-detail-image {
+.producto-detail-image img {
     width: 100%;
-    height: auto;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
@@ -153,8 +161,22 @@ body {
     font-size: 20px;;
 }
 
+.producto-detail-add {
+    color: #fff;
+    font-size: 13px;
+    background-color: #18B55A;
+    margin-top: 1.5rem;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+}
 
-.producto-detail:hover {
+.producto-detail-add:hover {
+    background-color: #84800b;
+}
+
+.producto-detail-cart:hover {
     transform: translateY(-10px);
 }
 
