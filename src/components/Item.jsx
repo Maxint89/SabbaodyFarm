@@ -16,7 +16,7 @@ export const Item = ({ producto }) => {
             <h2 className='producto-name'>{producto.nombre}</h2>
             <p className='producto-price'>${producto.precio}</p>
             <p className='producto-description'>{producto.descripcion}</p>
-            <Link to={`/item/${producto.id}`}>+ Info</Link>
+            <Link to={`/item/${producto.id}`} className="link-info" >+ Info</Link>
             <button onClick={() => handleAddToCart()} className='producto-detail-add'>Agregar al carrito</button>
         </div>
     )
