@@ -115,7 +115,7 @@ body {
 }
 
 .carritoTotalVaciar {
-    background-color: red;
+    background-color: #ff0000;
     margin-bottom: 20px;
     color: white;
     padding: 10px 20px;
@@ -135,8 +135,8 @@ body {
 
 .carritoEstado {
     text-align: center;
-    margin-top: 20px;
-    color: red;
+    margin: 3rem auto 9rem;
+    color: #ff0000;
 }
 
 .mensajecomprado{
@@ -148,7 +148,7 @@ body {
     border: 1px solid #7b929c;
     border-radius: 20px;
     padding: 10px;
-    margin: 3rem auto;
+    margin: 5rem auto 17rem;
     width: 60%;
 }
 
