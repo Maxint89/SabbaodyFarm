@@ -5,11 +5,11 @@ import carritoicon from "../../../public/img/cart-icon.png"
 
 export const CartWidget = () => {
   
-  const { cantidadEnCarrito } = useContext(CartContext); 
+  const { calcularCantidad } = useContext(CartContext); 
   
   return (
     <Link className='carrito' to='/Carrito'>
-      <img src={carritoicon} /> {cantidadEnCarrito()}
+      <img src={carritoicon} /> {calcularCantidad()}
     </Link>
     
   )

@@ -22,12 +22,30 @@ export const CartProvider = ({ children }) => {
         setCarrito(nuevoCarrito);
     }
 
-    const cantidadEnCarrito = () => {
+    const calcularCantidad = () => {
         return carrito.reduce((acc, prod) => acc + prod.cantidad, 0);
     }
 
     const calcularTotal = () => {
         return carrito.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0);
+    }
+
+    const incrementarProducto = (producto) => {
+        setCarrito(carrito.map(prod => {
+            if (prod.id === producto.id) {
+                return { ...prod, cantidad: prod.cantidad + 1 };
+            }
+            return prod;
+        }));
+    }
+
+    const decrementarProducto = (producto) => {
+        setCarrito(carrito.map(prod => {
+            if (prod.id === producto.id && prod.cantidad > 1) {
+                return { ...prod, cantidad: prod.cantidad - 1 };
+            }
+            return prod;
+        }));
     }
 
     const eliminarProducto = (producto) => {
@@ -47,7 +65,7 @@ export const CartProvider = ({ children }) => {
     }, [carrito]);
 
     return (
-        <CartContext.Provider value={{ carrito, agregarAlCarrito, cantidadEnCarrito, calcularTotal, vaciarCarrito, eliminarProducto }}>
+        <CartContext.Provider value={{ carrito, agregarAlCarrito, calcularCantidad, calcularTotal, incrementarProducto, decrementarProducto, vaciarCarrito, eliminarProducto }}>
             {children}
         </CartContext.Provider>
     )

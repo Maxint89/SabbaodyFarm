@@ -80,7 +80,7 @@ body {
     background-color: #7b929c;
     color:#bbec09;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid #7b929c;
     border-radius: 20px;
     padding: 10px;
@@ -92,6 +92,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.carritoTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carritoPrecioU, .carritoCantidad, .carritoPrecioT {
+    font-size: 16px;
+}
+
+.botonCarrito{
+    border-radius: 50%;
+    padding: 3px;
 }
 
 .item-list-container-title {
