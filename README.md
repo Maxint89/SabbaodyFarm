@@ -1,8 +1,24 @@
-# React + Vite
+# Sabbaody Farm - Tienda de Frutas del Diablo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sabbaody Farm es una tienda en línea dedicada a la venta de las míticas frutas del diablo de la serie de anime One Piece.
 
-Currently, two official plugins are available:
+## Instalación
+1. Clonar el repositorio:
+    ```bash
+    git clone https://github.com/Maxint89/SabbaodyFarm.git
+    ```
+2. Instalar las dependencias:
+    ```bash
+    npm install
+    ```
+3. Iniciar la aplicación:
+    ```bash
+    npm run dev
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Despliegue en Vercel
+Este proyecto está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Sabbaody Farm](https://sabbaody-farm.vercel.app/).
+
+Este proyecto fue realizado por Teileche Maximiliano como entrega final del curso React JS de CoderHouse.
+
+¡Gracias por revisar mi proyecto! Espero que les guste y cualquier sugerencia o critica será recibido.
